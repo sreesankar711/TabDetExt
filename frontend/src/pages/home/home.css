@@ -1,0 +1,131 @@
+.container-home {
+    width: 100%;
+    height: 100vh;
+
+    /* overflow: hidden; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F0DBA5;
+    position: relative;
+    font-family: "Recoleta";
+
+    /* filter: url(#noiseFilter); */
+
+    position: relative;
+    font-family: 'Poppins';
+}
+
+  
+  
+
+  
+.nav-home {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins';
+   
+}
+
+.nav-home h1 {
+    margin-left: 60px;
+    font-weight: 400;
+
+}
+.nav-home ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right: 100px;
+    width: 400px;
+    
+}
+/* .nav-home ul li {
+    
+
+
+} */
+
+.nav-home ul li a{
+    display: block;
+    color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-home ul li a:hover{
+    font-weight: 500;
+}
+
+.hero-home {
+    position:absolute;
+    top: 150px;
+    left: 60px;
+    z-index: 10;
+    
+}
+
+.hero-home span {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.auto {
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.icon-container-home {
+  position: absolute;
+  bottom: 20px;
+}
+  
+.scroll-icon-home {
+    
+    font-size: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    animation-duration: 2s;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes scroll {
+
+    0%   { top:0px;}
+    50%  {top:10px;}
+    
+    100% { top:0px;}
+}
+
+#icon-final{
+    transition: opacity 0.3s ease;
+}
+
+.hidden {
+    opacity: 0;
+}

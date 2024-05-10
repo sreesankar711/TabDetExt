@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(97, 171, 251); */
+    background-image: linear-gradient(#000, #151414);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.left h1 {
+
+    /* background-image: -webkit-linear-gradient(#5895c4, #c6c4c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    background: linear-gradient(#bef264,#67e8f9 );
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.ring {
+    color: white;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
