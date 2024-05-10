@@ -3,19 +3,19 @@
 <p align="center">
   <img src="image1.jpg" alt="Image 1" height="200"/>
   <br>
-  Name 1
+  image1.jpg
 </p>
 
 <p align="center">
   <img src="image2.jpg" alt="Image 2" height="200"/>
   <br>
-  Name 2
+  image2.jpg
 </p>
 
 <p align="center">
   <img src="image3.jpg" alt="Image 3" height="200"/>
   <br>
-  Name 3
+  image3.jpg
 </p>
 
 
